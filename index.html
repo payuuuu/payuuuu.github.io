@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Maze</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="css/linearicons.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<!-- Header Area -->
+		<div class="main-wrapper-first">
+			<header>
+				<div class="container">
+					<div class="header-wrap">
+						<div class="header-top d-flex justify-content-between align-items-center">
+							<div class="logo">
+								<a href="index.html"><img src="img/logo.png" alt=""></a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<!-- End Header Area -->
+		<!-- Banner Area -->
+		<div class="main-wrapper">
+			<div class="banner-area">
+				<div class="container">
+					<div class="row height justify-content-center align-items-center">
+						<div class="col-lg-5 col-sm-6 col-xs-6">
+							<div class="banner-content">
+								<h1>Payal Chaudhari</h1>
+								<p>
+									
+								</p>
+								<button class="primary-btn white-bg d-inline-flex align-items-center mt-10 ml-auto" onclick="typeWriter()"><span class="mr-10">Hidden Message</span><span class="lnr lnr-arrow-right"></span></button>
+								<p id="demo" style="font-size: 20px; font-family: Arial, Helvetica, sans-serif;"></p>
+								<script>
+								var i = 0;
+								var txt = "Khush toh boht hogee dur dur bol ke udaipur jo bhej diya . Saal ka akhri din boht kuch krna tha iss sal kuch hua kuch nhi but afsos nhi akhir pehli bar koi esi dost mili jo smjti hai janti hai mujhe. Sath mai pdne se leke sath mai coding krna sath mai khane se leke sath mai bhuka rehna kuch kmm hogya jo sath mai bimar bhi pdne lg gye kamini your friendship is most special gift not just of this year . every moment with you is special it's final few months and I don't wanna Miss any moment that we have .I can't express much what I feel but yeah I'm lucky to have you as my best friend kamini and isko pdke agr tumhe firse voh dialog yad arha hai 'attachment nhi, mai chli jaungi fir kya kroge' to kripya niche wala button press krdijiye 😂";
+								var speed = 50;
+
+								function typeWriter() {
+								  if (i < txt.length) {
+									document.getElementById("demo").innerHTML += txt.charAt(i);
+									i++;
+									setTimeout(typeWriter, speed);
+								  }
+								}
+								</script>
+							<a class="primary-btn white-bg d-inline-flex align-items-center mt-10 ml-auto" href='https://www.youtube.com/watch?v=g8LEktKv9hs'><span class="mr-10">Click krne se pehle soch lena</span><span class="lnr lnr-arrow-right"></span></a>
+
+							</div>
+						</div>
+						<div class="col-lg-5 col-sm-6 col-xs-6">
+							<img class="img-fluid mx-auto" src="img/header-img.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Banner Area -->
+		
+
+			<footer class="footer-area relative pt-60 pb-60">
+				<div class="container">
+					<div class="footer-content d-flex flex-column align-items-center">
+						<div class="text-center copy-right-text">Copyright &copy; 2019 All rights reserved </div>
+						<div class="footer-social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-whatsapp"></i></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->
+		</div>
+
+		<script src="js/vendor/jquery-2.2.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>
+		<script src="js/jquery.nice-select.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
